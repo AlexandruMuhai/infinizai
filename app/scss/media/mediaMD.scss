@@ -1,3 +1,14 @@
 @media (max-width: $md){
+  .header__banner{
+    img{
+      width: 460px;
+    }
+  }
+  .header__title{
+    font-size: rem(48);
+  }
+  .header{
+    background: none;
+  }
 
 }

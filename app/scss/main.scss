@@ -1,0 +1,99 @@
+.header{
+  padding-top:27px;
+  padding-bottom: 250px;
+  background:url("../images/img/blue_background.svg") repeat-y;;
+  background-size: 50% auto;
+  background-position-x: right;
+}
+.header__top{
+  display: flex;
+  align-items: center;
+  gap:30px;
+  justify-content: space-between;
+}
+.header__navigation{
+  display: flex;
+  gap: 60px;
+  li:first-child{
+    color:$yellow;
+  }
+}
+.header__cart{
+  display: flex;
+  align-items: center;
+  gap:40px;
+}
+.header__cart-image{
+  position: relative;
+  width: auto;
+  span{
+    position: absolute;
+    top:-8px;
+    right: -15px;
+    font-size: rem(11);
+    background-color: white;
+    color: black;
+    width: 21px;
+    height: 18px;
+    border-radius: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.header__cart-button{
+  display: flex;
+  padding:20px 31px;
+  border:1px solid white;
+}
+.header__bottom{
+  margin-top: 209px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__subtitle{
+  display: flex;
+  align-items: center;
+  margin-bottom:16px;
+  gap:8px;
+  p{
+    color: #57B8FF;
+    font-size: rem(16);
+  }
+}
+.header__title{
+  font-size: rem(70);
+  font-weight: normal;
+  max-width: 656px;
+  margin-bottom:45px;
+}
+.header__text{
+  max-width: 615px;
+  color: #999999;
+  line-height: 28px;
+}
+.header__buttons{
+  margin-top: 53px;
+  display: flex;
+  align-items: center;
+  gap:40px;
+  flex-wrap: wrap;
+}
+.header__explore-button{
+  display: flex;
+  padding: 24px 34px;
+  background-color: #57B8FF;
+}
+.header__info{
+  position: relative;
+}
+.header__side{
+  display: flex;
+  gap:54px;
+  color: #80858F;
+  font-size: rem(11);
+  position: absolute;
+  transform: rotate(-90deg);
+  top:215px;
+  left:-165px;
+}
