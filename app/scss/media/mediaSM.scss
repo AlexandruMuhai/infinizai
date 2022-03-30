@@ -14,4 +14,45 @@
     padding:10px 30px;
     width: 175px;
   }
+  .future__title{
+    font-size: rem(48);
+    text-align: center;
+  }
+  .future__text{
+    text-align: center;
+  }
+  .future__image{
+    img{
+      width: 275px;
+    }
+  }
+  .character__image{
+    img{
+      width: 275px;
+    }
+  }
+  .character__title{
+    font-size: rem(48);
+    text-align: center;
+  }
+  .character__text{
+    text-align: center;
+  }
+  .news__main{
+    img{
+      width:275px ;
+    }
+    max-width: 275px;
+  }
+  .new__item{
+    max-width: 275px;
+    img{
+      width: 275px;
+    }
+  }
+  .community-wrapper{
+    form{
+      max-width: 275px;
+    }
+  }
 }

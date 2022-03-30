@@ -14,4 +14,42 @@
     align-items: center;
     gap:30px;
   }
+  .future-wrapper{
+    flex-direction: column;
+    align-items: center;
+    gap:54px;
+  }
+  .future__button{
+    margin:0 auto;
+  }
+  .character{
+    padding:44px 0;
+  }
+  .character-wrapper{
+    flex-direction: column-reverse;
+    gap:54px;
+  }
+  .game__item-content{
+    font-size: 24px;
+    img{
+      width: 64px;
+    }
+  }
+  .game__item{
+    height: 500px;
+  }
+  .news__block{
+    flex-direction: column;
+    align-items: center;
+    gap:44px;
+  }
+  .news__items{
+    justify-content: center;
+  }
+  .community__input{
+    font-size: rem(14);
+    input{
+      height: 50px;
+    }
+  }
 }
